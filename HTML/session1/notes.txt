@@ -1,0 +1,14 @@
+Elements ==> block , Inline
+
+-- Block Elements ==> h1:h6 , p  , ul , li , ol , semantic tags 
+
+-- Inline Element ==> span , a , img , iframe
+
+-- images attributes ==> src , width (% / px) , height (px/%) , alt , title 
+
+-- table attributes ==> border
+--th / td attributes ==> colspan / rowspan
+
+-- ul attributes ==> type : circle , spuare 
+
+
