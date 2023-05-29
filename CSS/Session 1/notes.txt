@@ -1,0 +1,9 @@
+-- Css Methods ==> Internal sheet 
+                   Inline Style
+                   External sheet
+
+-- css periorities ==> inline style ==> id ==> class ==> tag name
+
+-- Inline Element ==> inline , inline-block
+
+-- display ==> block , inline , inline-block , flex , none

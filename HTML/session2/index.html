@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Html Session 2</title>
+</head>
+
+<body>
+    <!-- Username@domain.subdomain -->
+    <!-- target="_blank" action="about.html" -->
+    <form autocomplete="off" 
+     method="post">
+        <label for="password">first Name</label>
+        <input type="text" id="fName" name="fName" required 
+        minlength="3" maxlength="5" autocomplete="off" 
+        autofocus> <br>
+        <label>Last Name</label>
+        <input type="text"  name="l_Name"> <br>
+        <label>Email</label>
+        <input type="email" name="userEmail"> <br>
+        <input type="text" placeholder="enter your address">
+         <br>
+        <input type="text" value="nasr city"
+         name="OfficeAddress" disabled>
+        <input type="text" value="nasr city"
+         name="address" readonly>
+        <input type="password" 
+        placeholder="enter your password" id="password"> <br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female" checked> 
+        <span>Female</span> <br>
+        <label>Track</label>
+        <input type="checkbox" name="track1" value="1"> <span>Web Design</span>
+        <input type="checkbox" name="track2" value="2" checked> <span>Web Develope</span>
+        <input type="checkbox" name="track3" value="3"> <span>Graphics</span> <br>
+
+        <!-- <label>Courses</label> -->
+        <select name="course" multiple>
+            <option disabled selected>Choose course</option>
+            <option>course 1</option>
+            <option>course 2</option>
+            <option>course 3</option>
+            <option>course 4</option>
+            <option>course 5</option>
+        </select> <br>
+
+        <input type="file" multiple accept=".png">
+
+        <!-- <label>Notes</label> -->
+        <textarea rows="5" cols="50" placeholder="enter your notes"></textarea> <br>
+
+        <label>ID Card </label>
+        <input type="number">
+
+        <label>Numbers</label>
+        <!-- <input type="text" pattern="[A-Za-z]{3}"> -->
+        <input type="text" pattern="[0-9]{5}" 
+        title="enter at least 5 numbers"> <br>
+
+        <label>Birth Date</label>
+        <input type="date" name="birthDate">  <br>
+        <input type="month" name="month"> <br>
+        <input type="datetime-local" name="time"> <br>
+        <input type="color"> <br>
+
+        <input type="range" name="range" value="100"
+         min="0" max="200" step="100" > 
+        <br>
+        <br>
+        <br>
+    
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        <button>Submit</button>
+
+        <!-- !@#$%& ==> special character -->
+    </form>
+    
+
+</body>
+
+</html>
