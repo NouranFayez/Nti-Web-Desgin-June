@@ -1,0 +1,110 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global style */
+.text-white{
+    color: white;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.w-100{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.padding{
+    padding: 4% 0;
+}
+
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+/* custom style */
+#contact-section{
+    background-color: #11CFCF;
+    height: 400px;
+}
+#contact-section form{
+    width: 40%;
+}
+
+#contact-section form button{
+    background-color: goldenrod;
+    padding: 2% 6%;
+    font-size: 22px;
+    margin-left: auto;
+    display: block;
+}
+
+.bg-img{
+    background-image: url(../images/download.jpg);
+    width: 100%;
+    /* background-repeat: no-repeat ;
+    background-color: lightblue;
+    background-position-x: center ;
+    background-position-y: center;
+    background-position: right center; */
+
+    background-size: 100% 180%;
+    background-position-y: bottom;
+}
+.bg-img h1 {
+    font-size: 40px;
+}
+.bg-img p {
+    margin: 3% 0;
+    font-size: 20px;
+}
+.bg-img button{
+    padding: 1%;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+.overlay{
+    background-color: #0000008a;
+    height: 100%;
+}
+
+
+.service-section{
+    background-color: #eee;
+}
+
+.card{
+    width: 30%;
+    /* border: 2px solid black; */
+    /* box-shadow ==> |h-offset v-offset blur spread color */
+
+    box-shadow: 0px 0px 10px 7px #c8c3c3;
+}
+
+.card .card-details{
+    padding: 3%;
+}
+.card .card-details p {
+    margin: 3% 0;
+}
+.margin-left-right{
+    margin: 0% 3%;
+}
+
+
