@@ -129,3 +129,76 @@ nav li {
 
 /* position ==> static(default) , fixed , sticky , relative , absolute */
 /* top , left , right , bottom , z-index */
+
+
+.card{
+    width: 40%;
+    position: relative;
+    display: inline-block;
+    opacity: 0.5;
+    /* visibility: hidden; */
+}
+.card:hover{
+    opacity: 1;
+}
+.overlay{
+    background-color: #00000054;
+    position: absolute;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: none;
+
+}
+.card:hover .overlay{
+    display: block;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.location-deatils{
+    background-color: goldenrod;
+    padding: 2%;
+    display: inline-block;
+    position: absolute;
+    top: calc(100% - 23px);
+    left: calc(50% - 80px);
+    color: white;
+}
+
+.location-deatils:hover{
+    background-color: red;
+}
+
+
+.card-content{
+    width: 30%;
+    display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    width: 30%;
+    color: goldenrod;
+    background: black;
+    height: 200px;
+}
+
+
+input{
+    margin-top: 10%;
+    padding: 2% 0%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    color: red;
+    /* outline: 11px solid red; */
+    border: 0;
+    border-bottom: 18px solid;
+}
+
+input:focus{
+    outline: 0;
+    border-color: blue;
+}
