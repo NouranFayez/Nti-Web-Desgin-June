@@ -29,9 +29,16 @@ a{
 
 
 /* Custom Style */
+header{
+    background-color: blue;
+    padding: 2% 0;
+}
 nav{
     background-color: blanchedalmond;
     padding: 1% 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 nav ul{
     float: right;
@@ -58,14 +65,39 @@ nav li {
 .about-card{
     box-shadow: 0px 0px 10px 5px black;
     padding: 2%;
-    text-shadow: 0px 0px 10px black;
-    color: black;
+    text-shadow: 0px 0px 10px white;
+    color: white;
     text-indent: 116px;
     letter-spacing: 2px;
     word-spacing: 77px;
     /* white-space: nowrap; */
     text-transform: capitalize;
+    position: relative;
+    background-color: black;
+    z-index: 5;
 
+}
+.square ,  .square3{  
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 100%;
+    left: 23px;
+}
+.square{
+    background-color: black;
+}
+.square3{
+    background-color: blue;
+ 
+}
+.square2{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 100%;
+    left: 20%;
 }
 
 .icon-circle{
@@ -80,3 +112,20 @@ nav li {
     line-height: 1.9;
 }
 
+.top-btn{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 2;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom:30px;
+    right: 50px;
+}
+
+/* position ==> static(default) , fixed , sticky , relative , absolute */
+/* top , left , right , bottom , z-index */
