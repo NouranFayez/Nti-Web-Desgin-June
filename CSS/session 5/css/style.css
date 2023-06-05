@@ -1,0 +1,89 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* ltr ==> left to right:;
+    rtl ==> right to left */
+    /* direction: rtl; */
+}
+ul{
+    list-style: none;
+}
+
+
+/* Global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-light{
+    background-color: #eee;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+
+/* Custom Style */
+nav{
+    color: white;
+    margin-bottom: 2%;
+    padding: 1% 0;
+}
+nav h1 {
+    font-size: 40px;
+}
+nav ul{
+    width: 30%;
+    /* row-gap: 20px; */
+}
+.flex-container{
+    display: flex;
+    /* flex-direction ==> row (default) , row-reverse , column , column-reverse */
+    /* flex-direction: row ; */
+    /* flex-wrap : nowrap (default) , wrap */
+    /* flex-flow : flex-direction flex-wrap */
+    flex-wrap: wrap;
+    /* flex-flow:wrap row-reverse ; */
+    /* gap: row-gap column-gap; */
+    /* gap: 20px; */
+
+    /* justify-content ==> flex-start (default) , flex-end , center , space-between , space-around , space-evenly */
+    justify-content: space-between;
+    /* align-items: flex-start , flex-end , center , stretch; */
+    align-items: center; 
+    align-content: flex-start , flex-end , center , space-between , space-around , space-evenly ;
+
+}       
+
+.card{
+    
+    color: white;
+    width: 26%;
+    padding: 2%;
+    /* display: inline-block; */
+}
+
+.bg-gold{
+    background-color: goldenrod;
+    order: 3;
+    align-self: flex-start;
+}
+
+.bg-dark{
+    background-color: black;
+    order: 1;
+}
+
+.bg-blue{
+    background-color: blue;
+    /* order: -1; */
+    order: 2;
+}
