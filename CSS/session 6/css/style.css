@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+
+/* Global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+p{
+    font-family:monospace;
+}
+.rtl-text{
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/****************** Pseudo Class *************************/
+/* https://www.w3schools.com/css/css_pseudo_classes.asp */
+
+#myUl li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: red;
+}
+
+li:first-child:hover{
+    color: blue;
+}
+
+li:hover{
+    color: goldenrod;
+}
+
+#myUl li:nth-child(5){
+    color: green;
+}
+table{
+    width: 70%;
+    margin: 2% auto;
+    border-collapse: collapse;
+}
+table , td ,th{
+    border: 2px solid lightgrey;
+}
+td , th {
+    padding: 1%;
+}
+th{
+    background-color: teal;
+    color: white;
+}
+/* tr:nth-child(3) , tr:nth-child(5){
+    background-color: lightgrey;
+    color: teal;
+} */
+
+tr:nth-child(odd){
+    background-color: lightgrey;
+    color: teal;
+}
+tr:hover{
+    background-color: lightcoral;
+    color: white;
+}
+tr:nth-child(odd):hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+.mydiv {
+    /* color: red; */
+}
+
+.mydiv :not(p){
+    color: blue;
+}
+
+a{
+    font-size: 40px;
+}
+
+a:link{
+    color: goldenrod;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: black;
+}
+
+
+input:checked{
+    width: 40px;
+    height: 40px;
+}
+
+:required{
+    border: 3px solid red;
+}
+
+/* :hover{
+    background-color: bisque;
+} */
+
+
+p:first-of-type{
+    color: blue;
+}
+
+.card p:last-of-type{
+    color: blue;
+}
+:disabled{
+    background-color: bisque;
+}
+
+
+h3::first-letter{
+    color: red;
+    font-size: 40px;
+}
+
+/* ::first-line{
+    color: blue;
+    font-size: 30px;
+} */
+
+::marker{
+    color: yellow;
+}
+
+::selection{
+    background-color: goldenrod;
+    color: white;
+}
+
+::placeholder{
+    color: red;
+}
+
+.custom-div{
+    background-color: #eee;
+    color: blue;
+    font-size: 20px;
+    position: relative
+    /* color: #eee; */
+}
+
+
+/*  before / after ==>  text */
+/* .custom-div h1::before , .custom-div h1::after{
+    content: "Web design";
+    background: black;
+    color: white;
+    padding: 2%;
+    display: inline-block;
+    border-right: 3px solid blue;
+} */
+
+/* before / after ==> shap */
+
+.custom-div::before{
+    content: "";
+    border-width: 30px;
+    border-style: solid;
+    display: inline-block;
+    width: 0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #eee;
+    border-bottom-color: transparent;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+
+/* before / after ==> icon */
+.custom-div::after{
+    content: "\f099";
+    font-family: "Font Awesome 5 Brands";
+    font-size: 55px;
+}
+
+
+
