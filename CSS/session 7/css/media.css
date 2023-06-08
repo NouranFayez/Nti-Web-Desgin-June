@@ -1,0 +1,45 @@
+
+
+/* @media type condition breakpoint */
+
+/* type ==> screen , speetch , print */
+
+/* consdition ==> max-width , min-width , range */
+
+/* breakpoint ==> screen size  */
+
+
+
+/* 0 : 575.98px */
+@media (max-width: 575.98px) { 
+    /* .card{
+        width: 50%;
+    } */
+ }
+/* 0 : 360px */
+@media  (max-width : 360px) {
+    /* .card{
+        width: 100%;
+        margin-bottom: 5%;
+    } */
+    .d-flex{
+        
+    }
+}
+
+
+
+@media (min-width:576px){
+    .card{
+        background-color: black;
+        color: white;
+    }
+}
+
+
+@media (min-width:500px) and (max-width:800px){
+    .card{
+        background-color: maroon;
+        color: white;
+    }
+}

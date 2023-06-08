@@ -1,0 +1,103 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* custom style */
+
+.custom-div h2{
+    color: red;
+}
+.custom-div > h2{
+    background-color: goldenrod;
+}
+
+.custom-div > h2:first-child{
+    font-size: 50px;
+}
+
+.custom-div h2:first-child{
+    font-size: 50px;
+    border:5px solid  blue;
+}
+
+.custom-div + p{
+    font-size: 30px;
+    color: blue;
+}
+
+.custom-div ~ p{
+    background-color: black ;
+    color: white;
+}
+
+input[type]{
+    background-color: lightblue;
+    margin-top: 3%;
+    border: 0;
+    padding: 2%;
+}
+
+input[type=text]{
+    background-color: goldenrod;
+}
+/* end with ==> Id */
+input[name$=Id]{
+    background-color: blue;
+}
+/* start with ==> last */
+input[id^=last]{
+    background-color: burlywood;
+}
+[href]{
+    background-color: black;
+}
+/* contain ==> facebook */
+[href*=facebook]{
+    color: white;
+    font-size: 30px;
+}
+
+.custom-heading{
+    font-size: 40px;
+    padding: 2%;
+    background-color: lightblue;
+    margin-top: 2%;
+}
+
+/* .custom-heading:nth-child(2){
+    background-color: brown;
+    color: white;
+} */
+
+.custom-div.active{
+
+}
+
+.custom-div#custom-id{
+
+}
+
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+    padding: 2%;
+    background-color: lightblue;
+}
+
