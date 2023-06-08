@@ -101,3 +101,62 @@ input[id^=last]{
     background-color: lightblue;
 }
 
+
+.custom-card{
+    background-color: lightgray;
+    padding: 2%;
+    font-family: cursive;
+    width: 30%;
+    margin-bottom: 2%;
+    /* transition-property: all; */
+    transition-duration: 5s;
+    /* transition-delay: 2s ; */
+    /* transition-timing-function: ease-in-out; */
+    height: 200px;
+    /* transition: 1s all linear ; */
+    transition: width 1s , height 5s;
+
+}
+.custom-card:hover{
+    width: 60%;
+    height: 400px;
+    /* transition-property: ; */
+}
+
+.d-flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.custom-img{
+    width: 300px;
+    height: 450px;
+    transition: all 2s;
+}
+
+.custom-img:hover{
+    filter: brightness(30%);
+    filter: opacity(0.5);
+    filter: blur(0px);
+    filter: contrast(0.5);
+    /* filter==> drop-shadow */
+}
+
+
+section{
+    /* linear-gradient ==> direction , color1 , color2 */
+    /* left to right */
+    /* background-image: linear-gradient(to right bottom ,  goldenrod , maroon , lightblue); */
+    /* background-image: linear-gradient(to right bottom ,  maroon , maroon); */
+    /* radial-gradient ==> shap , color 1 , color2 */
+    background-image: radial-gradient(circle ,  goldenrod , black);
+    height: 500px;
+}
+
+.custom-font{
+    background-color: lightblue;
+    padding: 2%;
+    font-size: 20px;
+}
+
