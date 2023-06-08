@@ -111,6 +111,7 @@ input[id^=last]{
     /* transition-property: all; */
     transition-duration: 5s;
     /* transition-delay: 2s ; */
+    /* ease , linear , ease-in , ease-out , ease-in-out */
     /* transition-timing-function: ease-in-out; */
     height: 200px;
     /* transition: 1s all linear ; */
@@ -160,3 +161,7 @@ section{
     font-size: 20px;
 }
 
+.custom-font p{
+    font-size: 2rem; /* according to root Element*/
+    font-size: 2em; /* according to Parent Element*/
+}
