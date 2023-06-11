@@ -67,3 +67,56 @@
 .overflow-hidden{
     overflow: hidden;
 }
+
+.animation-card{
+    width: 30%;
+    height: 100px;
+    background-color: lightblue;
+    animation-name: changeBgColor;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 2;
+    animation-direction: normal; /* 0% ==> 100%*/
+    animation-direction: reverse; /* 100% ==> 0%*/
+    animation-direction: alternate; /* 0% ==> 100% ::: 100% ==> 0%*/
+    animation-direction: alternate-reverse; /* 100% ==> 0% ::: 0% ==> 100%*/
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+}
+
+@keyframes changeBgColor{
+    /* from {
+        background-color: black;
+    }
+
+    to {
+        background-color: goldenrod;
+        width: 80%;
+    } */
+
+    0%{
+        background-color: black;
+
+    }
+    25%{
+        background-color: lightgray;
+        transform: translateX(300px);
+        border: 10px solid goldenrod;
+    }
+    50%{
+        background-color: maroon;
+        transform: translate(300px , 300px) rotate(180deg);
+       
+    }
+    75%{
+        background-color: lightpink;
+        transform: translate(0px , 300px);
+    }
+    100%{
+        background-color: blue;
+    }
+
+
+}
