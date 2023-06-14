@@ -1,0 +1,20 @@
+.custom-carousel-img-height{
+    height: calc(100vh - 56px);
+}
+.carousel-caption {
+    bottom: 16.75rem;
+
+}
+
+.carousel-indicators{
+    left: auto;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: maroon;
+}
