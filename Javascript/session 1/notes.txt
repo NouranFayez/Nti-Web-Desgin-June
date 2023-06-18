@@ -1,0 +1,37 @@
+-- variable ==> - premitive variables
+                - non-premitive variables (object / array)
+
+  -- premitive variables ==> string , number , boolean (true / false) , null , undefined  
+
+  -- var 
+
+  var variableName = variableValue      
+
+  -- operators ==> Mathematical operators ()
+                   Assignment operators
+                   unary operators
+                   comparison operators
+                   logical operators
+                   ternary operators  
+
+ -- mathematical operators  ==> (+ - / * ** % ++ --)     
+
+-- increment (++)
+-- decrement (--)
+
+
+-- Assignment Operator ==> +=  , -= , /= , *= , **= , %=
+
+-- Unary operator ==> typeof
+
+-- comparison operator ==> (> , < , >= , <= , == , === , != , !==) ==> return boolean type (true / false)
+
+-- logical operator (&& || !)
+
+-- ternary Operator ==> (condition) ? true condition : false condition
+
+
+ -- NaN ==> Not a Number   
+
+
+ -- if/else statement           
