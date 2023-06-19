@@ -1,0 +1,29 @@
+---- Switch Case
+
+-- looping ==> for / while / do - while / foreach / for of 
+
+--- for(variable ; condition ; increment/decrement){
+    
+}
+
+
+-- convert string to number ==> + , parseInt() , parseFloat() , Number()
+
+
+--- function ==> function name
+                 parameters (optional) - default parameters
+                 return value
+                 callFunction() 
+
+
+
+/// number of subject ==> input
+/// fullMark ==> input
+// degree of each subject
+///// (degree > fullMark/2)
+/// countOfSuccess 
+/// countOfFailed
+
+
+//// numOfSubject * fullMark = totalOfSubjects
+/// percentage ==> sum / totalOfSubjects * 100
