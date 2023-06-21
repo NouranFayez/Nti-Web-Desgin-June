@@ -1,0 +1,9 @@
+.card {
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+}
+
+.bg-light{
+    background-color: lightgray;
+}
