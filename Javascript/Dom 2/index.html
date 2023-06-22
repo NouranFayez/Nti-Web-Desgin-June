@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2 id="h2_style" onmouseenter="handleChangeH2('mouseenter' , this)"
+        onmouseleave="handleChangeH2('mouseleave' , this)">Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Facere, consequuntur.</h2>
+
+
+    <h3 id="h3_style" onmouseenter="handleChangeH2('mouseenter' , this )"
+        onmouseleave="handleChangeH2('mouseleave' , this)">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Ut, aspernatur.</h3>
+
+    <button onclick="handleChangeStyle()">Change Color</button>
+
+    <ul>
+        <li onclick="handleClick(this)" class="li_style">Home</li>
+        <li onclick="handleClick(this)" class="li_style">Home</li>
+        <li onclick="handleClick(this)" class="li_style">Home</li>
+        <li onclick="handleClick(this)" class="li_style">Home</li>
+    </ul>
+
+
+    <form id="form_id">
+        <input type="text" id="input_id" name="userName">
+        <input type="text" oninput="handleInputEvent()" name="userId">
+        <select name="" id="select_id" name="userCourse">
+            <option value="">Html</option>
+            <option value="">Css</option>
+            <option value="">Js</option>
+            <option value="">Boottsrap</option>
+        </select>
+        <button id="button_id">Submit</button>
+    </form>
+
+
+    <div class="div_style" >
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptates officiis, blanditiis, accusantium
+            ducimus quidem odio expedita praesentium eos modi cupiditate in! Doloribus ipsam vel totam dignissimos sed
+            minima repudiandae eveniet, praesentium animi eum voluptates dolores rem saepe. Quae, quod.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur vero mollitia alias in qui eveniet
+            magni est eum corrupti libero fugiat unde nobis esse commodi incidunt tempore dolores, deserunt rem.</p>
+    </div>
+
+
+    <div class="add_Element">
+
+    </div>
+
+    <form id="formTask">
+        <input type="text" name="taskName">
+        <input type="text" name="taskType">
+        <button>Add task</button>
+    </form>
+
+    <div class="task-container">
+
+    </div>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Balance</th>
+                <th>ID</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nouran</td>
+                <td>10000</td>
+                <td>1</td>
+                <td>
+                    <button>Edit Balance</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
