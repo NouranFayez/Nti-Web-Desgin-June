@@ -159,3 +159,65 @@ formTask.addEventListener('submit' , function(e){
 
     showtasks()
 })
+
+
+
+
+// localStorage.setItem("firstName" , "Nouran")
+// localStorage.setItem("lastName" , "Ahmed")
+// localStorage.setItem("address" , "Nasr city")
+
+// let firstName = localStorage.getItem("firstName")
+
+// console.log(firstName)
+
+// localStorage.removeItem('address')
+
+
+// sessionStorage.setItem('firstName' , "Nouran")
+
+
+let tasksLocalStorage = [
+    {taskName  : 'task name 1' , taskType : 'task type 1'} ,
+    {taskName  : 'task name 2' , taskType : 'task type 2'} ,
+]
+
+// [{taskName : 'task name 1' , tasktype : 'task type 1}]
+
+
+// JSON ==> javascript object notation 
+
+
+console.log(JSON.stringify(tasksLocalStorage))
+
+
+
+localStorage.setItem('tasks' , JSON.stringify(tasksLocalStorage))
+
+
+let arr = JSON.parse(localStorage.getItem('tasks'))
+
+arr.push({
+    taskName : 'task name 3' , taskType : 'task type 3' 
+})
+console.log(arr)
+
+
+console.log(localStorage.getItem('nationality'))
+
+
+
+let x = true
+let result;
+
+// truthy value ==>  string , number > 0  , true 
+// falsy value ==> null , 0  , -0 , undefined , "" , false
+
+(x) ? result = "correct" : result = 'wrong'
+
+console.log(result)
+
+if(localStorage.getItem('firstName')){
+    console.log('striiiing')
+}
+else console.log('nuuuuuuulllllllll')
